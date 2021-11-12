@@ -1,0 +1,16 @@
+{
+  "name": "course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build":"tailwindcss -i src/styles.css -o public/output.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
